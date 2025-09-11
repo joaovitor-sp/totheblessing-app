@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.totheblessing",
+      "sha256_cert_fingerprints": [
+        "83:A0:43:7B:D4:27:D9:04:A9:DD:D2:C4:17:1E:1C:42:EB:B3:D8:E3:FF:E2:BF:79:E9:89:58:68:0B:10:E3:AA"
+      ]
+    }
+  }
+]

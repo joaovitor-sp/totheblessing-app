@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "883755220754",
+    "project_id": "to-the-blessing",
+    "storage_bucket": "to-the-blessing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883755220754:android:4d727dd11b694d363b7dcb",
+        "android_client_info": {
+          "package_name": "com.example.totheblessing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883755220754-ejlhvq11gmr8rkdb1002trkp5dda0ipl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.totheblessing",
+            "certificate_hash": "a98c4b5d2c2fc45d182f03ba47ae89c799ad673f"
+          }
+        },
+        {
+          "client_id": "883755220754-vpd0pvh7sctior0nre0eka25taa7iq47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.totheblessing",
+            "certificate_hash": "907e8114144ed13fee6190ddfe164b34b15b2376"
+          }
+        },
+        {
+          "client_id": "883755220754-72gp124o4j9k21mn6aoo1acag7ms96va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2o-K0hlV72Jn7FRTV2H5xWBIBzUwR8ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883755220754-72gp124o4j9k21mn6aoo1acag7ms96va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "883755220754-hv7vtdmeco37o9ae2tisif0kdp3uo3e4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.totheblessing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

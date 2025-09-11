@@ -1,0 +1,34 @@
+buildscript {
+    repositories {
+        google()       // Repositório do Google (essencial para bibliotecas do Google)
+        mavenCentral() // Repositório Maven Central
+    }
+    dependencies {
+        // Dependências do Android Gradle Plugin e Kotlin (podem variar a versão)
+        classpath 'com.android.tools.build:gradle:8.4.1' // << Verifique a versão do seu AGP
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0" // << Verifique a versão do seu Kotlin
+        
+        // A LINHA MAIS IMPORTANTE PARA O SEU PROBLEMA:
+        classpath 'com.google.gms:google-services:4.4.1' // << Use a versão mais recente ou a que o Firebase sugere
+    }
+}
+    
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
